@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1400px; /* Increase width of the container */
+    margin: auto;
+    padding: 40px; /* Increase padding around the container */
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0; /* Increase height of the top bar */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 30px; /* Increase navbar padding */
+    border-bottom: 3px solid #ffcc00;
+}
+
+.nav-links a,
+.auth-links a {
+    margin: 0 15px; /* Increase spacing between links */
+    color: #333;
+    text-decoration: none;
+    font-size: 16px; /* Slightly increase font size */
+}
+
+.nav-links a:hover,
+.auth-links a:hover {
+    color: #0056b3;
+}
+
+.breadcrumb {
+    margin: 30px 0; /* Increase margin above and below the breadcrumb */
+    font-size: 16px; /* Increase breadcrumb font size */
+    color: #555;
+}
+
+/* Login Section */
+.login-section {
+    background-color: #fff;
+    padding: 50px; /* Increase padding inside the login section */
+    border-radius: 15px; /* Smoothen the corners more */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Enhance shadow */
+    margin: auto;
+    max-width: 600px; /* Increase width of the login box */
+    text-align: center;
+}
+
+.login-section h2 {
+    color: #0056b3;
+    font-size: 30px; /* Increase font size of the title */
+    margin-bottom: 20px;
+}
+
+.login-section form {
+    margin-top: 30px; /* Increase space below the title */
+}
+
+.login-section label {
+    display: block;
+    margin: 15px 0 8px; /* Increase spacing between labels and inputs */
+    text-align: left;
+    color: #333;
+    font-size: 16px; /* Increase font size of labels */
+}
+
+.login-section input {
+    width: 100%;
+    padding: 15px; /* Increase padding inside the inputs */
+    margin-bottom: 20px; /* Increase spacing between inputs */
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Smoothen input corners more */
+    font-size: 16px; /* Increase input font size */
+}
+
+.login-btn {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 15px 30px; /* Increase button size */
+    font-size: 16px; /* Increase button font size */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.new-account-btn,
+.forgot-password {
+    display: inline-block;
+    margin: 15px;
+    font-size: 16px; /* Increase font size of links */
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.new-account-btn:hover,
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 60px; /* Increase footer padding */
+    margin-top: 50px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px; /* Increase spacing between footer sections */
+}
+
+.newsletter input {
+    padding: 15px; /* Increase padding for newsletter input */
+    border: none;
+    border-radius: 8px;
+    margin-right: 15px;
+    font-size: 16px; /* Increase font size */
+}
+
+.newsletter button {
+    padding: 15px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-links h5 {
+    margin-bottom: 15px; /* Increase spacing below section title */
+    font-size: 18px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px; /* Increase font size */
+}

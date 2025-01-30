@@ -1,0 +1,26 @@
+
+.box {
+    border: 2px solid #333; border-radius: 8px; padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;}
+    .no-position {
+        background-color: #e0f7fa;}
+    .relative-position {
+    background-color: #fce4ec;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+    .absolute-position {
+    background-color: #f3e5f5; position: absolute;
+    top: 230px;
+    left: 20px;
+    width: 200px;}
+
+    .float-position {
+    background-color: #fff9c4;
+    float:right;
+    width: 200px;
+    }
+    .clear{
+    clear: both;}
