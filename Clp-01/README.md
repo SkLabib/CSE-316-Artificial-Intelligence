@@ -1,6 +1,7 @@
 Task 1:	Write a python program to find the sum of odd and even numbers from a set of numbers.
 Output: 
-![image](https://github.com/user-attachments/assets/f84c124f-8ac3-456d-ad41-0fa754d965fc)
+![image](https://github.com/user-attachments/assets/e94579c3-1eb2-4ba0-b7f1-e4002010a60d)
+
 Task 2: Write a python program to find the smallest number from a set of numbers.
 Output: 
 ![image](https://github.com/user-attachments/assets/b05ac2b5-b171-49a6-9990-e5987351e0e8)
