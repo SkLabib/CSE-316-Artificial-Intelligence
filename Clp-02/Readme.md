@@ -40,7 +40,7 @@ Output:
 
 ![image](https://github.com/user-attachments/assets/a3ed1303-8243-4f3f-8d21-3a468ad912a3)
 
-oblem 08: Fill missing values in a dataset with column-wise means.
+problem 08: Fill missing values in a dataset with column-wise means.
 
 Output: 
 
