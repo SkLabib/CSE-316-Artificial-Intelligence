@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1c750f54968f942f914d7fba7090b065 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1c750f54968f942f914d7fba7090b065" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1c750f54968f942f914d7fba7090b065 = L.map(
+                "map_1c750f54968f942f914d7fba7090b065",
+                {
+                    center: [40.749880000000005, -73.98434],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d2f315d6296ad59c5f41e570d386df10 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d2f315d6296ad59c5f41e570d386df10.addTo(map_1c750f54968f942f914d7fba7090b065);
+        
+    
+            var marker_fdd1a7323fa2316d6566313af7a98154 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_1c750f54968f942f914d7fba7090b065);
+        
+    
+            var icon_bc61250c92176c5a8967c5b453c81ac2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb85c52b0a35fd2bfee558b27a79f059 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9174fb8443123050b1b28b63a0fc852b = $(`<div id="html_9174fb8443123050b1b28b63a0fc852b" style="width: 100.0%; height: 100.0%;">123 Main St, New York, NY</div>`)[0];
+                popup_fb85c52b0a35fd2bfee558b27a79f059.setContent(html_9174fb8443123050b1b28b63a0fc852b);
+            
+        
+
+        marker_fdd1a7323fa2316d6566313af7a98154.bindPopup(popup_fb85c52b0a35fd2bfee558b27a79f059)
+        ;
+
+        
+    
+    
+                marker_fdd1a7323fa2316d6566313af7a98154.setIcon(icon_bc61250c92176c5a8967c5b453c81ac2);
+            
+    
+            var marker_91740b7d903960ee43f7701da50e83ef = L.marker(
+                [40.7589, -73.9851],
+                {
+}
+            ).addTo(map_1c750f54968f942f914d7fba7090b065);
+        
+    
+            var icon_c5ca97e0b3013cfb25bdfa16ae07e5c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f70b883786a5794f53ce685bac1689cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f80a8046c1b9efedbb96b4152b872f5 = $(`<div id="html_9f80a8046c1b9efedbb96b4152b872f5" style="width: 100.0%; height: 100.0%;">456 Broadway, New York, NY</div>`)[0];
+                popup_f70b883786a5794f53ce685bac1689cd.setContent(html_9f80a8046c1b9efedbb96b4152b872f5);
+            
+        
+
+        marker_91740b7d903960ee43f7701da50e83ef.bindPopup(popup_f70b883786a5794f53ce685bac1689cd)
+        ;
+
+        
+    
+    
+                marker_91740b7d903960ee43f7701da50e83ef.setIcon(icon_c5ca97e0b3013cfb25bdfa16ae07e5c6);
+            
+    
+            var marker_104e24f7519b466560334a1bb9def32d = L.marker(
+                [40.7829, -73.9654],
+                {
+}
+            ).addTo(map_1c750f54968f942f914d7fba7090b065);
+        
+    
+            var icon_74a7525d86230dc9356da69ef3327f71 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_35838710689518dc2b93c1317b7d76e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3680111d23fedff1200de60c26b29a7d = $(`<div id="html_3680111d23fedff1200de60c26b29a7d" style="width: 100.0%; height: 100.0%;">789 Fifth Avenue, New York, NY</div>`)[0];
+                popup_35838710689518dc2b93c1317b7d76e7.setContent(html_3680111d23fedff1200de60c26b29a7d);
+            
+        
+
+        marker_104e24f7519b466560334a1bb9def32d.bindPopup(popup_35838710689518dc2b93c1317b7d76e7)
+        ;
+
+        
+    
+    
+                marker_104e24f7519b466560334a1bb9def32d.setIcon(icon_74a7525d86230dc9356da69ef3327f71);
+            
+    
+            var marker_3ee83b6f5f7b80f0d25b1686eb6d2782 = L.marker(
+                [40.7549, -73.9749],
+                {
+}
+            ).addTo(map_1c750f54968f942f914d7fba7090b065);
+        
+    
+            var icon_a1e82b46699b80a1ae812ba7fd358c43 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9e10e544c30f590ce33ca47670ad5b9b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_997b73ee4d7e7bca21a9fb7659de0d48 = $(`<div id="html_997b73ee4d7e7bca21a9fb7659de0d48" style="width: 100.0%; height: 100.0%;">101 Park Avenue, New York, NY</div>`)[0];
+                popup_9e10e544c30f590ce33ca47670ad5b9b.setContent(html_997b73ee4d7e7bca21a9fb7659de0d48);
+            
+        
+
+        marker_3ee83b6f5f7b80f0d25b1686eb6d2782.bindPopup(popup_9e10e544c30f590ce33ca47670ad5b9b)
+        ;
+
+        
+    
+    
+                marker_3ee83b6f5f7b80f0d25b1686eb6d2782.setIcon(icon_a1e82b46699b80a1ae812ba7fd358c43);
+            
+    
+            var marker_c0bb9d7663cc1f080b369dc2ea605d5f = L.marker(
+                [40.7399, -73.9903],
+                {
+}
+            ).addTo(map_1c750f54968f942f914d7fba7090b065);
+        
+    
+            var icon_1a4fc782436cf54b78eb995e8c915ca9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33d2ba2f85ec06cf8bff6b6a7428e7f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c4f489156c63eb1d995d98e120f3c4f = $(`<div id="html_9c4f489156c63eb1d995d98e120f3c4f" style="width: 100.0%; height: 100.0%;">202 Washington St, New York, NY</div>`)[0];
+                popup_33d2ba2f85ec06cf8bff6b6a7428e7f7.setContent(html_9c4f489156c63eb1d995d98e120f3c4f);
+            
+        
+
+        marker_c0bb9d7663cc1f080b369dc2ea605d5f.bindPopup(popup_33d2ba2f85ec06cf8bff6b6a7428e7f7)
+        ;
+
+        
+    
+    
+                marker_c0bb9d7663cc1f080b369dc2ea605d5f.setIcon(icon_1a4fc782436cf54b78eb995e8c915ca9);
+            
+    
+            var poly_line_601c172902413d32deb9f539eaaf689f = L.polyline(
+                [[40.78352, -73.96514], [40.78353, -73.96504], [40.78358, -73.96499], [40.78363, -73.96496], [40.78366, -73.96495], [40.78362, -73.96483], [40.78357, -73.96467], [40.78351, -73.9645], [40.78342, -73.96429], [40.7833, -73.96404], [40.78316, -73.96385], [40.78307, -73.96378], [40.78293, -73.96369], [40.78274, -73.96363], [40.78236, -73.96353], [40.7822, -73.96346], [40.78202, -73.96336], [40.78188, -73.96324], [40.7817, -73.96303], [40.78141, -73.96258], [40.78124, -73.9624], [40.78068, -73.96186], [40.78032, -73.96145], [40.78024, -73.96137], [40.77996, -73.96075], [40.7797, -73.96013], [40.77952, -73.95972], [40.77891, -73.95826], [40.77819, -73.95655], [40.77746, -73.95708], [40.77596, -73.95819], [40.775, -73.95888], [40.77242, -73.96076], [40.76856, -73.96357], [40.76318, -73.9675], [40.75631, -73.9725], [40.75526, -73.97328], [40.75507, -73.97342], [40.75463, -73.97374], [40.75506, -73.97478]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_1c750f54968f942f914d7fba7090b065);
+        
+    
+            var poly_line_1a443e89d43fd5c6f484342ef53b1a67 = L.polyline(
+                [[40.75506, -73.97478], [40.75561, -73.97606], [40.75586, -73.97663], [40.75608, -73.97719], [40.75643, -73.978], [40.75668, -73.97857], [40.75737, -73.98021], [40.75804, -73.98178], [40.75913, -73.98435], [40.75923, -73.98463], [40.75882, -73.98491]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_1c750f54968f942f914d7fba7090b065);
+        
+    
+            var poly_line_e40a415524a9f467f506dbb3a88dffc3 = L.polyline(
+                [[40.75882, -73.98491], [40.75627, -73.98679], [40.75424, -73.98826], [40.7537, -73.98865], [40.75351, -73.98879], [40.75345, -73.98863], [40.75335, -73.98841], [40.75324, -73.98813], [40.75307, -73.98775], [40.75283, -73.98717], [40.75216, -73.98556], [40.75129, -73.9835], [40.75098, -73.98272], [40.75066, -73.98297], [40.74974, -73.98363], [40.74779, -73.98504], [40.74655, -73.98598], [40.74574, -73.98655], [40.74416, -73.98768], [40.74346, -73.9882], [40.74316, -73.98843], [40.74308, -73.98843], [40.74291, -73.98851], [40.74234, -73.9889], [40.74223, -73.98895], [40.74213, -73.98896], [40.74202, -73.98897], [40.74152, -73.9891], [40.74124, -73.98919], [40.74096, -73.98928], [40.74089, -73.98933], [40.74085, -73.98937], [40.74064, -73.98945], [40.74033, -73.98951], [40.74025, -73.98947], [40.73987, -73.98959], [40.74006, -73.99007]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_1c750f54968f942f914d7fba7090b065);
+        
+    
+            var poly_line_ca22f4517d749b7b8e289f3bc18a6cde = L.polyline(
+                [[40.7401, -73.99015], [40.74026, -73.99054], [40.74017, -73.9906], [40.73993, -73.99078], [40.7392, -73.99131], [40.73804, -73.99215], [40.73749, -73.99253], [40.73702, -73.99287], [40.7367, -73.99312], [40.73613, -73.99354], [40.7353, -73.99415], [40.73404, -73.99506], [40.73349, -73.99547], [40.73345, -73.9955], [40.73342, -73.99543], [40.73292, -73.99425], [40.73274, -73.99381], [40.73219, -73.99253], [40.73184, -73.99169], [40.73175, -73.99148], [40.73135, -73.99177], [40.73117, -73.99192], [40.73022, -73.99273], [40.72959, -73.99327], [40.72823, -73.99442], [40.72721, -73.99528], [40.72638, -73.99597], [40.72593, -73.99636], [40.72572, -73.99653], [40.72538, -73.99683], [40.72455, -73.99754], [40.72195, -73.99974], [40.72086, -74.00064], [40.7194, -74.00189], [40.71803, -74.00307], [40.71688, -74.00405], [40.71448, -74.00606], [40.71334, -74.00699], [40.71306, -74.00723], [40.71296, -74.00715], [40.71271, -74.00668], [40.71268, -74.00658], [40.71274, -74.00651], [40.71276, -74.00651]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_1c750f54968f942f914d7fba7090b065);
+        
+</script>
+</html>
